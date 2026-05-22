@@ -1,0 +1,47 @@
+{
+  "operation": "ADD",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA116859601"
+    }
+  },
+  "product": [
+    {
+      "actionType": "ADD",
+      "services": [
+        {
+          "serviceType": "/service/telco/gsm",
+           "serviceKey": "2fa1cd6a-f46d-47ef-a5ac-89ac7cffa17f",
+          "customizedBundles": [
+            {
+              "customizedChargeOffers": [
+                {
+                  "name": "",
+                  "description": "",
+                  "quantity": 1,
+                  "status": 1,
+                  "baseChargeOfferRef": {
+                    "id": "kpn_alles_in_1_basis_bundel_001"
+                  },
+                  "purchaseStart": {
+                    "startDate": "2026-05-19T06:50:00.144684800Z"
+                  },
+                  "purchaseEnd": {
+                    "endDate": "2026-06-19T06:50:00.144684800Z"
+                  },
+                  "overriddenCharges": [
+                    {
+                      "event": "311779173356"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subscriptionIndex": 0
+        }
+      ]
+    }
+  ]
+}

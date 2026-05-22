@@ -1,0 +1,1 @@
+{"description": "201","channel": {"name": "SMS","id": "SMS_01"},"usageType": "978","relatedParty": [{"id": "12222-99888-9999"}],"amount": {"amount": 100,"units": "EUR"},"logicalResource": {    "id": "311779431742",    "name": "MSISDN1"}}

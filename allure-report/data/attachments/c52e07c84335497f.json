@@ -1,0 +1,30 @@
+{
+  "description": "Transaction_PP011225_1",
+  "usageType": "KPN_PAY",
+  "usageDate": "2026-05-19T06:51:33.068148700Z",
+  "relatedParty": [
+    {
+      "role": "ServiceAccount",
+      "id": "SA116859601",
+      "@referredType": "ServiceAccount"
+    }
+  ],
+  "usageCharacteristic": [
+    {
+      "name": "requestId",
+      "value": "77777"
+    }
+  ],
+  "ratedProductUsage": [
+    {
+      "productRef": {
+        "id": "APPLE",
+        "name": "KPN PAY Apple store Downloads"
+      },
+      "taxIncludedRatingAmount": {
+        "value": 2,
+        "unit": "EUR"
+      }
+    }
+  ]
+}

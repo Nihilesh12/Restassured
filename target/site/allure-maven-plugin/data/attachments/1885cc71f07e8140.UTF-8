@@ -1,0 +1,21 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA120894762"
+    }
+  },
+  "partyAccount": {
+    "@type": "ServiceAccount",
+    "accountType": "3",
+    "isPermanent": "false",
+    "accountTag": "PREMIUM",
+    "description": "Premium service",
+    "profile": {
+      "subscriberPreference": [
+        { "name": "KPNPAY_CAP", "value": "500" }
+      ]
+    }
+  }
+}

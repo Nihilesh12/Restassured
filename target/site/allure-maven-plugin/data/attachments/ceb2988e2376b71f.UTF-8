@@ -1,0 +1,64 @@
+{
+  "extension": {},
+  "operation": "ADD",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA120894762"
+    }
+  },
+  "product": [
+    {
+      "actionType": "ADD",
+      "services": [
+        {
+          "serviceType": "/service/telco/gsm",
+           "serviceKey": "2fa1cd6a-f46d-47ef-a5ac-89ac7cffa17f",
+          "customizedBundles": [
+            {
+              "customizedChargeOffers": [
+                {
+                  "name": "",
+                  "description": "",
+                  "quantity": 1,
+                  "status": 1,
+                  "baseChargeOfferRef": {
+                    "id": "kpn_onbeperkt_online_promotie_bundel_001" 
+                  },
+                  "purchaseStart": { "startDate": "" },
+                  "purchaseEnd":   { "endDate":   "" },
+                  "overriddenCharges": [
+                    { "event": "1779431903" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subscriptionIndex": 0
+        }
+      ]
+    },
+    {
+      "actionType": "REMOVE",
+      "services": [
+        {
+          "serviceType": "/service/telco/gsm",
+          "serviceKey": "kpn_alles_in_1_basis_bundel_001",
+          "customizedBundles": [
+            {
+              "customizedChargeOffers": [
+                {
+                  "quantity": 1,
+                  "overriddenCharges": [
+                    { "event": "311779431742" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subscriptionIndex": 0
+        }
+      ]
+    }
+  ]
+}

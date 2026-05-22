@@ -1,0 +1,228 @@
+[
+    {
+        "id": "362311071705752068",
+        "href": "",
+        "description": "Refund for Transaction_PP011225_1",
+        "usageDate": "2026-05-22T06:38:12",
+        "usageType": "KPN_REFUND",
+        "ratedProductUsage": [
+            {
+                "isBilled": null,
+                "isTaxExempt": null,
+                "offerTariffType": null,
+                "ratingAmountType": null,
+                "ratingDate": null,
+                "taxRate": null,
+                "usageRatingTag": null,
+                "bucketValueConvertedInAmount": null,
+                "productRef": {
+                    "id": "Apple",
+                    "href": null,
+                    "name": null,
+                    "@baseType": null,
+                    "@schemaLocation": null,
+                    "@type": null,
+                    "@referredType": null
+                },
+                "taxExcludedRatingAmount": null,
+                "taxIncludedRatingAmount": {
+                    "id": null,
+                    "href": null,
+                    "unit": "EUR",
+                    "value": -1.0,
+                    "@baseType": null,
+                    "@schemaLocation": null,
+                    "@type": null
+                },
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            }
+        ],
+        "relatedParty": [
+            
+        ],
+        "status": "",
+        "usageCharacteristic": [
+            {
+                "name": "requestId",
+                "value": "88888",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "X-Interaction-Id",
+                "value": "adae54645v",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "dbssTransactionId",
+                "value": "361273132651709351",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "relatedRequestId",
+                "value": "77777",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "amount",
+                "value": "-1",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            }
+        ],
+        "usageSpecification": {
+            "id": null,
+            "href": null,
+            "name": null,
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null,
+            "@referredType": null
+        },
+        "@baseType": "",
+        "@schemaLocation": "",
+        "@type": ""
+    },
+    {
+        "id": "362311071705692222",
+        "href": "",
+        "description": "Transaction_PP011225_1",
+        "usageDate": "2026-05-22T06:37:53",
+        "usageType": "KPN_PAY",
+        "ratedProductUsage": [
+            {
+                "isBilled": null,
+                "isTaxExempt": null,
+                "offerTariffType": null,
+                "ratingAmountType": null,
+                "ratingDate": null,
+                "taxRate": null,
+                "usageRatingTag": null,
+                "bucketValueConvertedInAmount": null,
+                "productRef": {
+                    "id": "Google",
+                    "href": null,
+                    "name": null,
+                    "@baseType": null,
+                    "@schemaLocation": null,
+                    "@type": null,
+                    "@referredType": null
+                },
+                "taxExcludedRatingAmount": null,
+                "taxIncludedRatingAmount": {
+                    "id": null,
+                    "href": null,
+                    "unit": "EUR",
+                    "value": 2.0,
+                    "@baseType": null,
+                    "@schemaLocation": null,
+                    "@type": null
+                },
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            }
+        ],
+        "relatedParty": [
+            
+        ],
+        "status": "",
+        "usageCharacteristic": [
+            {
+                "name": "requestId",
+                "value": "77777",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "X-Interaction-Id",
+                "value": "a4536gdghd",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "dbssTransactionId",
+                "value": "",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            {
+                "name": "amount",
+                "value": "2",
+                "id": null,
+                "valueType": null,
+                "characteristicRelationship": [
+                    
+                ],
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            }
+        ],
+        "usageSpecification": {
+            "id": null,
+            "href": null,
+            "name": null,
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null,
+            "@referredType": null
+        },
+        "@baseType": "",
+        "@schemaLocation": "",
+        "@type": ""
+    }
+]

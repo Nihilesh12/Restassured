@@ -1,0 +1,20 @@
+{
+  "voucher": "2394905452474604",
+  "description": "201",
+  "channel": {
+    "name": "SMS",
+    "id": "SMS_01"
+  },
+  "usageType": "2000004",
+  "relatedParty": [
+    { "id": "12222-99888-9999" }
+  ],
+  "amount": {
+    "amount": 60,
+    "units": "EUR"
+  },
+  "logicalResource": {
+    "id": "311779431742",
+    "name": "MSISDN1"
+  }
+}

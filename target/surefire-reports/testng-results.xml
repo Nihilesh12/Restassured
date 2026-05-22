@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="23" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-22T12:05:39 IST" name="KPN Regression Suite" finished-at="2026-05-22T12:12:15 IST" duration-ms="395917">
+    <groups>
+    </groups>
+    <test started-at="2026-05-22T12:05:39 IST" name="Test_suites" finished-at="2026-05-22T12:12:15 IST" duration-ms="395917">
+      <class name="KPNAutomation.RegressionsuitePrepaid">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:05:39 IST" name="beforeClass" finished-at="2026-05-22T12:05:40 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="CreateAccount()[pri:1, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:05:40 IST" name="CreateAccount" finished-at="2026-05-22T12:05:48 IST" duration-ms="8298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method signature="TopupBalance()[pri:2, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:05:48 IST" name="TopupBalance" finished-at="2026-05-22T12:06:10 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="21371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopupBalance -->
+        <test-method signature="AddOffering()[pri:3, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:06:10 IST" name="AddOffering" finished-at="2026-05-22T12:06:36 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="26143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddOffering -->
+        <test-method signature="SimSwap_ChangeServiceAttribute()[pri:4, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:06:36 IST" name="SimSwap_ChangeServiceAttribute" finished-at="2026-05-22T12:06:55 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="18884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimSwap_ChangeServiceAttribute -->
+        <test-method signature="AdjustAccount()[pri:5, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:06:55 IST" name="AdjustAccount" finished-at="2026-05-22T12:06:55 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdjustAccount -->
+        <test-method signature="UpdateProfile()[pri:6, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:06:55 IST" name="UpdateProfile" finished-at="2026-05-22T12:07:14 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="19435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProfile -->
+        <test-method signature="ChangeCreditLimit()[pri:7, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:07:14 IST" name="ChangeCreditLimit" finished-at="2026-05-22T12:07:25 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="10777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeCreditLimit -->
+        <test-method signature="BalanceTransfer()[pri:8, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:07:25 IST" name="BalanceTransfer" finished-at="2026-05-22T12:07:44 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="19053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BalanceTransfer -->
+        <test-method signature="KPN_PAY_CREATE()[pri:9, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:07:44 IST" name="KPN_PAY_CREATE" finished-at="2026-05-22T12:08:03 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="18964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KPN_PAY_CREATE -->
+        <test-method signature="KPN_PAY_REFUND()[pri:10, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:03 IST" name="KPN_PAY_REFUND" finished-at="2026-05-22T12:08:22 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="18636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KPN_PAY_REFUND -->
+        <test-method signature="TopupBalance_WithVoucher_SMS()[pri:11, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:22 IST" name="TopupBalance_WithVoucher_SMS" finished-at="2026-05-22T12:08:22 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="150" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at KPNAutomation.RegressionsuitePrepaid.TopupBalance_WithVoucher_SMS(RegressionsuitePrepaid.java:1583)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopupBalance_WithVoucher_SMS -->
+        <test-method signature="ChangeOffering_AddDiscount_RemoveCharge()[pri:12, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:22 IST" name="ChangeOffering_AddDiscount_RemoveCharge" finished-at="2026-05-22T12:08:23 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeOffering_AddDiscount_RemoveCharge -->
+        <test-method signature="GetBundleBalance()[pri:13, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:23 IST" name="GetBundleBalance" finished-at="2026-05-22T12:08:23 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBundleBalance -->
+        <test-method signature="GetOffering()[pri:14, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:24 IST" name="GetOffering" finished-at="2026-05-22T12:08:24 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOffering -->
+        <test-method signature="GetTopupHistory()[pri:15, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:24 IST" name="GetTopupHistory" finished-at="2026-05-22T12:08:24 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopupHistory -->
+        <test-method signature="GetAccountHierarchy_MSISDN()[pri:16, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:24 IST" name="GetAccountHierarchy_MSISDN" finished-at="2026-05-22T12:08:24 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAccountHierarchy_MSISDN -->
+        <test-method signature="BadPinCounter()[pri:17, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:24 IST" name="BadPinCounter" finished-at="2026-05-22T12:08:33 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="8642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BadPinCounter -->
+        <test-method signature="GetKpnPay()[pri:18, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:33 IST" name="GetKpnPay" finished-at="2026-05-22T12:08:49 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="16323" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Usage type mismatch in response! Expected KPN_PAY but found: KPN_REFUND expected [KPN_PAY] but found [KPN_REFUND]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Usage type mismatch in response! Expected KPN_PAY but found: KPN_REFUND expected [KPN_PAY] but found [KPN_REFUND]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at KPNAutomation.RegressionsuitePrepaid.GetKpnPay(RegressionsuitePrepaid.java:2042)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetKpnPay -->
+        <test-method signature="coinnumberaddition()[pri:19, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:08:49 IST" name="coinnumberaddition" finished-at="2026-05-22T12:09:05 IST" duration-ms="15649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coinnumberaddition -->
+        <test-method signature="GetPrepaidAccount_MSISDN()[pri:20, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:09:05 IST" name="GetPrepaidAccount_MSISDN" finished-at="2026-05-22T12:09:20 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="15125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPrepaidAccount_MSISDN -->
+        <test-method signature="GetProfileInfo()[pri:21, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:09:20 IST" name="GetProfileInfo" finished-at="2026-05-22T12:09:35 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="15159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetProfileInfo -->
+        <test-method signature="GetUsagecdr()[pri:22, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:09:35 IST" name="GetUsagecdr" finished-at="2026-05-22T12:10:11 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="35611" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[API failed after retries -> GetUsagecdr]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: API failed after retries -> GetUsagecdr
+at org.testng.Assert.fail(Assert.java:99)
+at KPNAutomation.ApiRetry.run(ApiRetry.java:40)
+at KPNAutomation.ApiRetry.run(ApiRetry.java:15)
+at KPNAutomation.RegressionsuitePrepaid.GetUsagecdr(RegressionsuitePrepaid.java:2278)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at KPNAutomation.RegressionsuitePrepaid.lambda$GetUsagecdr$15(RegressionsuitePrepaid.java:2291)
+at KPNAutomation.ApiRetry.run(ApiRetry.java:28)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsagecdr -->
+        <test-method signature="GetBillingAccount()[pri:23, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:10:11 IST" name="GetBillingAccount" finished-at="2026-05-22T12:10:26 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="15145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBillingAccount -->
+        <test-method signature="ChangeAddressCustomer()[pri:24, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:10:26 IST" name="ChangeAddressCustomer" finished-at="2026-05-22T12:11:03 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="36959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeAddressCustomer -->
+        <test-method signature="UpdateServiceStatus()[pri:25, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:11:03 IST" name="UpdateServiceStatus" finished-at="2026-05-22T12:11:39 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="35657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateServiceStatus -->
+        <test-method signature="UpdateAccountStatus()[pri:26, instance:KPNAutomation.RegressionsuitePrepaid@53fb3dab]" started-at="2026-05-22T12:11:39 IST" name="UpdateAccountStatus" finished-at="2026-05-22T12:12:15 IST" depends-on-methods="KPNAutomation.RegressionsuitePrepaid.CreateAccount" duration-ms="35898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccountStatus -->
+      </class> <!-- KPNAutomation.RegressionsuitePrepaid -->
+    </test> <!-- Test_suites -->
+  </suite> <!-- KPN Regression Suite -->
+</testng-results>

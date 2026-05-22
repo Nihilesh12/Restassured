@@ -1,0 +1,16 @@
+{
+  "extension": {
+    "billWhen": 0,
+    "balanceType": "KPN_Prepaid_Initial_Balance",
+    "reasonCode": "one-off service",
+    "invoiceText": "Adjusted with Bill"
+  },
+  "effective": "2026-05-22T06:36:55.307607800Z",
+  "amountIsCredit": true,
+  "notes": {
+    "serviceId": "311779431742",
+    "comments": [ { "comment": "" } ]
+  },
+  "amount": 1.0,
+  "includeTax": false
+}

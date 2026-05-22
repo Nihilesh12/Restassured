@@ -1,0 +1,23 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "CustomerAccount",
+    "filters": {
+      "accountId": "CA120896202"
+    }
+  },
+  "contacts": {
+    "firstName": "may11",
+    "middleName": "",
+    "lastName": "cust_acc_tc1",
+    "company": "Oracle",
+    "address": "1234 Main Street",
+    "city": "Hometown",
+    "state": "TX",
+    "zip": "55555-4444",
+    "country": "Germany",
+    "houseNumber": "CA_111",
+    "houseNumberExt": "CA_222",
+    "street": "CA_333"
+  }
+}

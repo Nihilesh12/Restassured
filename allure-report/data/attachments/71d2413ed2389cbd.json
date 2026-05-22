@@ -1,0 +1,16 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+     "serviceKey": "service-id1779173356" }
+  },
+  "partyAccount": {
+    "@type": "ServiceAccount",
+    "service": {
+      "aliasList": [
+        { "name": "ICCID1", "value": "101779173424" }
+      ]
+    }
+  }
+}

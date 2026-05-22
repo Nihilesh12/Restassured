@@ -1,0 +1,14 @@
+{
+  "operation": "SEARCH",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "aliasList": [
+        {
+          "name": "MSISDN1",
+          "value": "311779173356"
+        }
+      ]
+    }
+  }
+}

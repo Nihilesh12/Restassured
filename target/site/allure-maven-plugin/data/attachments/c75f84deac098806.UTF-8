@@ -1,0 +1,1 @@
+https://st.dbss-rm.oci-np.kpn.org/brm/prepayBalanceManagement/v4/topupBalance?logicalResource.value=311779431742&fields=id,href,amount,partyAccount,product,reason,receiver,receiverPartyAccount,receiverProduct,relatedParty,requestedDate,requestor,status,transferCost,usageType,relatedTopupBalance,payment,impactedBucket,logicalResource

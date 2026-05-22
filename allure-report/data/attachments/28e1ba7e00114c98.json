@@ -1,0 +1,130 @@
+{
+    "status": {
+        "statusCode": "0000",
+        "statusType": "Success",
+        "statusDescription": "Processed Successfully"
+    },
+    "details": [
+        {
+            "accountId": "BA116862545",
+            "accountStatus": "ACTIVE",
+            "services": [
+                
+            ],
+            "contacts": [
+                {
+                    "firstName": "PRE-ACTIVATION ORDER",
+                    "lastName": "PRE-ACTIVATION ORDER",
+                    "middleName": "",
+                    "salutation": "",
+                    "address": "PRE-ACTIVATION ORDER",
+                    "city": "PRE-ACTIVATION ORDER",
+                    "company": "",
+                    "emailAddress": "",
+                    "state": "PRE-ACTIVATION ORDER",
+                    "zip": "PRE-ACTIVATION ORDER",
+                    "deleted": false,
+                    "newlyCreated": false,
+                    "contactType": "",
+                    "country": "Netherlands",
+                    "houseNumber": "",
+                    "houseNumberExt": "",
+                    "street": "",
+                    "phonenumbers": [
+                        
+                    ],
+                    "elem": 1
+                }
+            ],
+            "profileDetail": {
+                "@type": "BillingAccount",
+                "@type": "BillingAccount",
+                "description": null,
+                "status": null,
+                "expirationDate": null,
+                "lifecycleStatus": null,
+                "accountType": "2",
+                "accountTag": null,
+                "contractTerm": 838018321,
+                "delayPayment": 838018321,
+                "vatDisplay": "N",
+                "invoiceDelivery": null,
+                "kpnTaxExempt": "",
+                "kpnTaxReverse": "",
+                "kpnTaxNo": "",
+                "badDebtStatus": "",
+                "subscriberPreference": [
+                    
+                ]
+            },
+            "members": [
+                {
+                    "accountId": "SA116859601",
+                    "accountStatus": "ACTIVE",
+                    "services": [
+                        {
+                            "lifeCycleState": "115",
+                            "serviceStateExpiration": "2027-05-19T00:00:00",
+                            "status": "ACTIVE",
+                            "aliasList": [
+                                {
+                                    "name": "MSISDN1",
+                                    "value": "311779173356"
+                                }
+                            ]
+                        }
+                    ],
+                    "contacts": [
+                        {
+                            "firstName": "DUMMY",
+                            "lastName": "DUMMY",
+                            "middleName": "",
+                            "salutation": "",
+                            "address": "DUMMY",
+                            "city": "Hometown",
+                            "company": "",
+                            "emailAddress": "doe@nowhere.com",
+                            "state": "TX",
+                            "zip": "55555-4444",
+                            "deleted": false,
+                            "newlyCreated": false,
+                            "contactType": "",
+                            "country": "USA",
+                            "houseNumber": "",
+                            "houseNumberExt": "",
+                            "street": "",
+                            "phonenumbers": [
+                                
+                            ],
+                            "elem": 1
+                        }
+                    ],
+                    "profileDetail": {
+                        "@type": "ServiceAccount",
+                        "@type": "ServiceAccount",
+                        "description": null,
+                        "status": null,
+                        "expirationDate": null,
+                        "lifecycleStatus": null,
+                        "accountType": "3",
+                        "accountTag": null,
+                        "isPermanent": null,
+                        "service": null,
+                        "profile": {
+                            "subscriberPreference": [
+                                {
+                                    "name": "BRAND_ID",
+                                    "value": "201",
+                                    "subscriberPreferenceId": "6"
+                                }
+                            ]
+                        }
+                    },
+                    "members": [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

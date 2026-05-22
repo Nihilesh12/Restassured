@@ -1,0 +1,29 @@
+{
+  "description": "Refund for Transaction_PP011225_1",
+  "usageType": "KPN_REFUND",
+  "usageDate": "2026-05-19T06:51:56.643826Z",
+  "relatedParty": [
+    {
+      "role": "ServiceAccount",
+      "id": "SA116859601",
+      "@referredType": "ServiceAccount"
+    }
+  ],
+  "usageCharacteristic": [
+    { "name": "requestId", "value": "88888" },
+    { "name": "relatedRequestId", "value": "77777" },
+    { "name": "dbssTransactionId", "value": "361273132651709351" }
+  ],
+  "ratedProductUsage": [
+    {
+      "productRef": {
+        "id": "APPLE",
+        "name": "KPN PAY Apple store Downloads"
+      },
+      "taxIncludedRatingAmount": {
+        "value": 1,
+        "unit": "EUR"
+      }
+    }
+  ]
+}

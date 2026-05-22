@@ -1,0 +1,29 @@
+{
+  "coinEventDetail": {
+    "operatorCode": "ACT",
+    "plannedDateTime": "2026-05-19T06:53:07.278656600Z",
+    "registrationDate": "2026-05-19T06:53:07.278656600Z",
+    "items": [
+      {
+        "servicePhoneNumber": "993587278",
+        "pointOfPresence": "Y",
+        "tariff": {
+          "type": "1",
+          "vat": "0",
+          "peak": {
+            "amount": "44.5",
+            "currency": "EUR"
+          },
+          "offPeak": {
+            "amount": "88.5",
+            "currency": "EUR"
+          },
+          "setupFee": {
+            "amount": "0.0951",
+            "currency": "EUR"
+          }
+        }
+      }
+    ]
+  }
+}

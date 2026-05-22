@@ -1,0 +1,9 @@
+{
+  "operation": "SEARCH",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA120894762"
+    }
+  }
+}

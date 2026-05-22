@@ -1,0 +1,9 @@
+{
+  "operation": "SEARCH",
+  "searchCriteria": {
+    "entityType": "BillingAccount",
+    "filters": {
+      "accountId": "BA120896458"
+    }
+  }
+}

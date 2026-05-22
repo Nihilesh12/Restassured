@@ -1,0 +1,9 @@
+{
+  "requestDetails": {
+    "description": "BadPinCounter",
+    "logicalResource": {
+      "id": "311779173356",
+      "name": "MSISDN1"
+    }
+  }
+}

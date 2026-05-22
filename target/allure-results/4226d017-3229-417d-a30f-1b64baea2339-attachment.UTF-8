@@ -1,0 +1,24 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA86789712"
+    }
+  },
+  "relatedEntities": [
+    {
+      "entityType": "ServiceAccount",
+      "filters": {
+        "accountId": "SA120894762"
+      },
+      "role": "target"
+    }
+  ],
+  "transferDetail": {
+    "amount": {
+      "amount": 1,
+      "units": "EUR"
+    }
+  }
+}

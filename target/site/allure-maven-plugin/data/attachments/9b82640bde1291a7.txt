@@ -1,0 +1,4 @@
+select ppt.unique_id from product_t pt , purchased_product_t ppt where pt.poid_id0 = ppt.product_obj_id0   and ppt.account_obj_id0 = ?   and pt.code = ?
+
+Params:
+account_obj_id0=120894762

@@ -1,0 +1,14 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA120894762",
+      "serviceKey": "service-id1779431742"
+    }
+  },
+  "partyAccount": {
+    "@type": "ServiceAccount",
+    "lifecycleStatus": "ACTIVE"
+  }
+}

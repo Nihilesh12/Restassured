@@ -1,0 +1,30 @@
+{
+  "operation": "UPDATE",
+  "searchCriteria": {
+    "entityType": "ServiceAccount",
+    "filters": {
+      "accountId": "SA120894762"
+    }
+  },
+  "partyAccount": {
+    "@type": "ServiceAccount",
+    "accountType": "3",
+    "isPermanent": "false",
+    "accountTag": "PREMIUM",
+    "description": "Premium service",
+    "profile": {
+      "subscriberPreference": [
+        { "name": "NOTIFICATION_CHANNEL", "value": "SMS" },
+        { "name": "NOTIFICATION_LANGUAGE", "value": "Dutch" },
+        { "name": "NOTIFICATION_MSISDN", "value": "45345345" },
+        { "name": "NOTIFICATION_EMAIL",  "value": "test@gmail.com" },
+        { "name": "KPN_PAY",  "value": "Y" },
+        { "name": "BRAND_ID", "value": "201" },
+        { "name": "KPNPAY_CAP", "value": "300" },
+        { "name": "ROAMING_CAP", "value": "50" },
+        { "name": "SILENTHOUR_START", "value": "9AM" },
+        { "name": "SILENTHOUR_END",   "value": "9PM" }
+      ]
+    }
+  }
+}

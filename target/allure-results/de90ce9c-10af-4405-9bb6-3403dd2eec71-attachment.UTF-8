@@ -1,0 +1,135 @@
+{
+"locale": "en_US",
+"businessType": "3",
+"services": [
+  {
+   "serviceType": "/service/telco/gsm",
+   "serviceKey": {
+    "string": "service-id1779431742"
+   },
+   "customizedBundles": [
+    {
+     "customizedChargeOffers": [
+      {
+       "name": "KPN Prepaid",
+       "description": "",
+       "quantity": 1,
+       "status": 1,
+       "baseChargeOfferRef": {
+        "id": "kpn_prepaid_001"
+       },
+       "purchaseStart": {
+        "startDate": {
+         "string": "2026-03-16T10:43:32.914705300+01:00"
+        }
+       },
+       "purchaseEnd": {
+        "endDate": {
+         "string": "2027-03-16T10:43:32.914949458+01:00"
+        }
+       },
+       "overriddenCharges": [
+        {
+         "event": "KP1773654208844803-0001"
+        }
+       ]
+      },
+      {
+       "name": "KPN Prepaid Initial Balance",
+       "description": "",
+       "quantity": 1,
+       "status": 1,
+       "baseChargeOfferRef": {
+        "id": "kpn_prepaid_initial_balance_5_001"
+       },
+       "purchaseStart": {
+        "startDate": {
+         "string": "2026-03-16T10:43:32.914705300+01:00"
+        }
+       },
+       "purchaseEnd": {
+        "endDate": {
+         "string": "2027-03-16T10:43:32.914949458+01:00"
+        }
+       },
+       "overriddenCharges": [
+        {
+         "event": "KP177364654208844803-0001"
+        }
+       ]
+      },
+      {
+       "name": "KPN Prepaid tarif",
+       "description": "",
+       "quantity": 1,
+       "status": 1,
+       "baseChargeOfferRef": {
+        "id": "kpn_prepaid_basis_2021_001"
+       },
+       "purchaseStart": {
+        "startDate": {
+         "string": "2026-03-16T10:43:32.914705300+01:00"
+        }
+       },
+       "purchaseEnd": {
+        "endDate": {
+         "string": "2027-03-16T10:43:32.914949458+01:00"
+        }
+       },
+       "overriddenCharges": [
+        {
+         "event": "KP1773654208856444803-0001"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+],
+"extension": {
+  "caAccountId": null,
+  "baAccountId": null,
+  "saAccountId": null,
+  "accountType": "3",
+  "accountTag": "Prepaid",
+  "description": "PREACTIVATION_EVENT",
+  "kpnBrandId": "201",
+  "kpnTaxExempt": null,
+  "kpnTaxRevers": null,
+  "kpnTaxNo": null,
+  "services": [
+   {
+    "serviceKey": null,
+    "aliasList": [
+     {
+      "name": "MSISDN1",
+      "value": "311779431742"
+     },
+     {
+      "name": "ICCID1",
+      "value": "101779431742"
+     },
+     {
+      "name": "IMSI1",
+      "value": "201779431742"
+     }
+    ]
+   }
+  ],
+  "profile": {
+   "subscriberPreference": [
+    {
+     "name": "EARLIEST_ACTIVATION_TIME",
+     "value": "2026-01-01T00:00:00",
+     "subscriberPreferenceId": null
+    },
+    {
+     "name": "LATEST_ACTIVATION_TIME",
+     "value": "2026-01-01T00:00:00",
+     "subscriberPreferenceId": null
+    }
+   ]
+  }
+}
+}

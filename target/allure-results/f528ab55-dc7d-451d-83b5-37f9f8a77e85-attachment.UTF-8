@@ -1,0 +1,104 @@
+{
+    "id": "362311071705692222",
+    "href": "",
+    "description": "Transaction_PP011225_1",
+    "usageDate": "2026-05-22T06:37:53",
+    "usageType": "KPN_PAY",
+    "ratedProductUsage": [
+        {
+            "isBilled": null,
+            "isTaxExempt": null,
+            "offerTariffType": null,
+            "ratingAmountType": null,
+            "ratingDate": null,
+            "taxRate": null,
+            "usageRatingTag": null,
+            "bucketValueConvertedInAmount": null,
+            "productRef": {
+                "id": "Google",
+                "href": null,
+                "name": "KPN PAY Google store Downloads",
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null,
+                "@referredType": null
+            },
+            "taxExcludedRatingAmount": null,
+            "taxIncludedRatingAmount": {
+                "id": null,
+                "href": null,
+                "unit": "EUR",
+                "value": 2.0,
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+            },
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null
+        }
+    ],
+    "relatedParty": [
+        {
+            "id": "SA120894762",
+            "@referredType": "ServiceAccount",
+            "href": null,
+            "name": null,
+            "role": "ServiceAccount",
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null
+        }
+    ],
+    "status": "0",
+    "usageCharacteristic": [
+        {
+            "name": "requestId",
+            "value": "77777",
+            "id": null,
+            "valueType": null,
+            "characteristicRelationship": [
+                
+            ],
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null
+        },
+        {
+            "name": "dbssTransactionId",
+            "value": "362311071705692222",
+            "id": null,
+            "valueType": null,
+            "characteristicRelationship": [
+                
+            ],
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null
+        },
+        {
+            "name": "status",
+            "value": "0",
+            "id": null,
+            "valueType": null,
+            "characteristicRelationship": [
+                
+            ],
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": null
+        }
+    ],
+    "usageSpecification": {
+        "id": null,
+        "href": null,
+        "name": null,
+        "@baseType": null,
+        "@schemaLocation": null,
+        "@type": null,
+        "@referredType": null
+    },
+    "@baseType": "",
+    "@schemaLocation": "",
+    "@type": ""
+}
