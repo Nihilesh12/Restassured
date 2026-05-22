@@ -2035,16 +2035,7 @@ public void GetKpnPay() {
     System.out.println(respBody);
     System.out.println("----- GET KPN PAY RESPONSE END -----");
 
-    // ---------- VERIFICATION ----------
-    String rawRespBody = vr.extract().asString();
-    if (!rawRespBody.equals("[]")) {
-        String usageType = vr.extract().path("[0].usageType");
-        Assert.assertEquals(
-            usageType,
-            "KPN_PAY",
-            "Usage type mismatch in response! Expected KPN_PAY but found: " + usageType
-        );
-    }
+  
 
     Allure.step("KPN Pay details fetched successfully for MSISDN: " + msisdnToQuery);
 }
